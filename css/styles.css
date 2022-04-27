@@ -1,0 +1,51 @@
+:root {
+    --praimeri-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #ffffff;
+}
+
+body{
+    background-color: #fff;
+    color: var(--praimeri-text-color);
+}
+.list{
+    list-style: none;
+}
+
+/* site nav */
+
+.site-nav .link{
+color:var(--praimeri-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+color: var(--accent-color);
+}
+
+/* hero */
+
+.hero{
+background-color: #2F303A;
+}
+.hero-title{
+color: var(--white-color);
+}
+
+/* section */
+
+.section-title{
+color:var(--praimeri-text-color);
+}
+
+/* feature */
+.title .feature-title{
+color:var(--praimeri-text-color);
+}
+
+/* button */
+
+.button{
+color: var(--white-color);
+background-color: var(--accent-color);
+}
